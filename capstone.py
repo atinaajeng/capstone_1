@@ -227,7 +227,8 @@ def update(borrowers):
                                 print(f"{field_to_update} has been successfully updated!")
                             else:
                                 print("Update canceled.")
-                        elif key == 5:  # Update Book Title
+                             
+                        elif key == 5: 
                             question_2 = input("Are you sure you want to update Book Title (Y/N)? ")
                             if question_2.upper() == 'Y':
                                 modify_list(borrowers[i]["Book Title"], "Book Title")
@@ -235,14 +236,14 @@ def update(borrowers):
                                 print("Update canceled.")
                             
 
-                        elif key == 6:  # Update Author
+                        elif key == 6: 
                             question_2 = input("Are you sure you want to update Author (Y/N)? ")
                             if question_2.upper() == 'Y':
                                 modify_list(borrowers[i]["Author"], "Author")
                             else:
                                 print("Update canceled.")
                             
-                                
+                        
                         else:
                             print("Invalid option.")
                     
